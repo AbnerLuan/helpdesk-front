@@ -1,3 +1,3 @@
 export const API_CONFIG = {
-    baseUrl : 'localhost:8080'
+    baseUrl : 'https://helpdesk-prod-luan.herokuapp.com'
 }
