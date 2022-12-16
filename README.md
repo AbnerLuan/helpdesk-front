@@ -1,27 +1,51 @@
-# Helpdesk
+# :card_index_dividers:Indice
+- [Sobre o projeto](#sobre-o-projeto)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Como baixar o projeto](#como-baixar-o-projeto)
+- [Fotos do projeto](#imagens-do-projeto)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+# :computer:Sobre o projeto 
+O projeto Help Desk foi desenvolvido para praticar conceitos de Java, Springboot, Spring Security e Angular.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<img src="https://ik.imagekit.io/uuvdtlvst/tecnicos.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1671226417745">
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# :hammer:Tecnologias utilizadas:
+- Java 11;
+- SpringBoot 3.0;
+- SpringSecurity;
+- H2 Database;
+- Postman;
+- Eclipse;
+- Visual Studio Code;
+- Angular 12.0.5;
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# :open_file_folder:Como baixar o projeto
+```bash
+# Clone o repositório com o comando abaixo
+$ git clone https://github.com/AbnerLuan/help-desk
 
-## Running unit tests
+# Entre no diretório do projeto com o comando abaixo
+$ cd help-desk
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Instale todas as dependências com o comando abaixo
+$ npm install
 
-## Running end-to-end tests
+# Inicie o projeto localmente e acesso-o pelo endereco `http://localhost:4200/`.
+$ ng serve
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# :camera_flash:Fotos do Projeto
+## Login:closed_lock_with_key: 
+<img src="https://ik.imagekit.io/uuvdtlvst/login.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1671226417911">
 
-## Further help
+## Tecnicos:technologist:
+<img src="https://ik.imagekit.io/uuvdtlvst/tecnicos.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1671226417745">
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Clientes:customs:
+<img src="https://ik.imagekit.io/uuvdtlvst/clientes.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1671226417531">
+
+## Chamados:scroll:
+<img src="https://ik.imagekit.io/uuvdtlvst/chamados.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1671226417907">

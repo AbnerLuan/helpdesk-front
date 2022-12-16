@@ -5,9 +5,9 @@
         <img src="assets/img/tecnico-create.png" alt="Help Desk">
 
         <section class="section">
-            <mat-checkbox (click)="addPerfil(0)" class="margin" color="primary">Admin</mat-checkbox>
+            <mat-checkbox disabled="true" (click)="addPerfil(0)" class="margin" color="primary">Admin</mat-checkbox>
             <mat-checkbox (click)="addPerfil(1)" [checked]="true" class="margin" color="primary">Cliente</mat-checkbox>
-            <mat-checkbox (click)="addPerfil(2)" class="margin" color="primary">Cliente</mat-checkbox>   
+            <mat-checkbox disabled="true" (click)="addPerfil(2)" class="margin" color="primary">Tecnico</mat-checkbox>   
         </section>
 
           <mat-form-field class="fullWidth" appearance="legacy">
@@ -61,5 +61,5 @@
         <button routerLink="../../" class="fullWidth mat-elevation-z4" mat-stroked-button color="warn">Cancelar</button>
 
     </form>
-    <p class="fullWidth">By Abner Luan</p>
+    <p class="fullWidth">Desenvolvido por Luan Santos</p>
 </div>

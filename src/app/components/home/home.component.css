@@ -2,11 +2,24 @@
     width: 90%;
     margin: 1rem auto;
     background-color: rgb(235, 235, 235);
+    text-align: center;
 }
 
-img {
-    height: 20rem;
-    display: inline-flex;
-    float: left;
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  img {
+    height: 20%;
+    width: 20%;    
+    margin: auto;
+          
+}
+
+p {
+    font-size: x-large;
+    line-height: 3rem;    
     
 }
